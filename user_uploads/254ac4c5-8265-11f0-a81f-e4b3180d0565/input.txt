@@ -1,0 +1,7 @@
+file 'IMG_6911.JPG'
+duration 2
+file 'IMG_6920.JPG'
+duration 2
+file 'IMG_7175.JPG'
+duration 2
+file 'IMG_7175.JPG'

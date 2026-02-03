@@ -1,0 +1,9 @@
+file 'bg5_1.jpg'
+duration 2
+file 'bg_3.jpg'
+duration 2
+file 'bg_2.jpg'
+duration 2
+file 'bg_3.jpg'
+duration 2
+file 'bg_3.jpg'

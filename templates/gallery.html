@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Gallery - Multimedia Reels{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container gallery-container">
+    <h1 class="gallery-title">Reel Gallery</h1>
+   
+    <div class="gallery-grid">
+      {% for reel in reels %}
+      <video width="320" height="240" controls>
+          <source src="{{ url_for('static', filename='reels/' ~ reel) }}" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      {% else %}
+      <p>No reels found in the gallery.</p>
+      {% endfor %}
+    </div>
+</div>
+{% endblock %}
